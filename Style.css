@@ -78,3 +78,6 @@ img {
 #link,#forget:hover {
     color: rgba(66, 65, 65, 0.7);
 }
+nav {
+    padding: 5px;
+}
