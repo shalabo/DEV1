@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="./bootstrap.bundle.js"></script>
+    <title>小專報告</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="apple" data-bs-interval="3000" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button id="button1" type="button" data-bs-target="#apple" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button id="button1" type="button" data-bs-target="#apple" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button id="button1" type="button" data-bs-target="#apple" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./圖片/上衣/a9c2y-lz9kc.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="./圖片/外套/a3fan-7zk6o.png" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="./圖片/帽子/a5p7h-cj95l.png" class="img-fluid">
+                </div>
+            </div>
+            <button id="button2" class="carousel-control-prev" type="button" data-bs-target="#apple"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button id="button2" class="carousel-control-next" type="button" data-bs-target="#apple"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Hasta la vista</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">熱銷商品</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">商品種類</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">帽子</a></li>
+                            <li><a class="dropdown-item" href="#">外套</a></li>
+                            <li><a class="dropdown-item" href="#">上衣</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">客服中心</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">實體店面</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn" type="button" style="color: white;">
+                        <i class="bi bi-cart-fill" style="font-size: 20px;"></i>
+                    </button>
+                </form>
+                <form class="d-flex">
+                    <button class="btn" type="button" style="color: white;">
+                        <a href="http://127.0.0.1:5500/%E5%B0%8F%E5%B0%88/%E7%99%BB%E5%85%A5%E9%A0%81%E9%9D%A2.html"><i
+                                class="bi bi-person-circle" style="font-size: 20px;"></i></a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <span>
+                <h4>ALL</h4>
+            </span>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/a5p7h-cj95l.png">
+                        <span id="cname" style="font-style: oblique;">HYPE LOGO SUEDE BLACK CAP / 特殊款全黑麂皮帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/a9c2y-lz9kc.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE BLACKISH / 經典淺黑短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/a3fan-7zk6o.png">
+                        <span id="cname" style="font-style: oblique;">CARD LOGO LEATHER BLAZER BLACK / 膠牌款皮革西裝外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/a6g4t-i9t6i.png">
+                        <span id="cname" style="font-style: oblique;">KOR LOGO CAP 4PCING SPLICE / 跨國設計款文字棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/adj33-nqdq0.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE OFF-WHITE / 經典深白短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/aalt8-55z1v.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO BASEBALL JACKET GREY / 經典款灰色棒球外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/a7e1e-djfev.png">
+                        <span id="cname" style="font-style: oblique;">HYPE LOGO CAP WASHED / 特殊款水洗棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/al3wd-9rc4f.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE WASHED GREY / 經典水洗灰短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/am7cn-kcn9z.png">
+                        <span id="cname" style="font-style: oblique;">HIGH TECH LOGO REFLECTIVE BLACK PARKA / 設計款科技反光黑色外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/adyk0-uf0t5.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO CAP WATER GREY / 經典款水灰色棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/am5bb-tkvgn.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE CHARCOAL GREY / 經典碳灰色短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/ampcx-qu9fo.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO VARSITY JACKET BLACK / 經典款黑色棒球外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/agsb1-cpewq.png">
+                        <span id="cname" style="font-style: oblique;">SIMPLE LOGO MARIANA BLUE CAP / 極簡款海溝藍棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/amwyt-g7b8p.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE MARIANA BLUE / 經典海溝藍短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/ap9qp-mp8lz.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO VINTAGE BLACK DENIM JACKET / 經典復古黑色牛仔外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/aikb7-3i3ny.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO GRADIENT SHIRT / 漸層疊影短袖襯衫</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/atbcq-9xp16.png">
+                        <span id="cname" style="font-style: oblique;">HYPE LOGO CAP WASHED / 特殊款水洗棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/auten-2nqt9.png">
+                        <span id="cname" style="font-style: oblique;">BASIC LOGO BLAZER JACKET BLACK / 基本款西裝外套</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/外套/apuco-fi8jn.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO CAP WHITE / 經典款白色棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/awl62-2vq22.png">                       
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO CAP WHITE / 經典款白色棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/auewk-18do4.png">                  
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE WASHED BLACK / 經典水洗黑短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/帽子/awowl-1s6mb.png">       
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO CAP BLACK / 經典款黑色棒球帽</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="rere">
+                        <img src="./圖片/上衣/auewk-18do4.png">
+                        <span id="cname" style="font-style: oblique;">CLASSIC LOGO TEE BLACKISH / 經典淺黑短袖T恤</span>
+                        <span id="cmuch">NT$980</span>
+                        <button id="cbutton">加入購物車</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-2"></div> -->
+        </div>
+        <br><br><br><br><br>
+    <div class="row" style="background-color: rgba(211, 193, 193, 0.3); padding: 40px ; font-size: 17px;">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-4"><strong style="font-size: 20px;">購物需知</strong></div>
+                <div class="col-4"></div>
+                <div class="col-4"><strong style="font-size: 20px;">聯絡我們</strong></div>
+                <hr>
+                <div class="col-4"><a id="link" href="#">隱私權</a></div>
+                <div class="col-4"><a id="link" href="">常見問題</a></div>
+                <div class="col-4" ;">
+                    <a id="link" href=""><i class="bi bi-facebook"></i></a>
+                    <a id="link" href=""><i class="bi bi-instagram" style="margin-left: 10px;"></i></a>
+                    <a id="link" href=""><i class="bi bi-youtube" style="margin-left: 10px;"></i></a>
+                </div>
+                <div class="col-4"><a id="link" href="#">退換貨需知</a></div>
+                <div class="col-4"><a id="link" href="">Q&A</a></div>
+                <div class="col-4"></div>
+                <div class="col-4"><a id="link" href="">運送物流</a></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+</body>
+
+
+</html>
