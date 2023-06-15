@@ -1,3 +1,6 @@
+body {
+    overflow-y: scroll;
+  }
 .carousel-item>img {
     margin-top: 100px;
     width: 100%;
@@ -22,8 +25,9 @@ img {
 }
 #cname,#cmuch  {
     position: relative;
+    padding: 3px;
     /* left: 50px; */
-    bottom: 50px;
+    /* bottom: 50px; */
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -35,17 +39,19 @@ img {
     width: 200px;
     position: relative;
 } */
-.rere{
-    /* background-color: pink; */
+/* .rere{
+    background-color: pink;
     margin-bottom: 60px;
-    height: 400px;
+    height: 300px;
     width: 300px;
-    /* position: relative; */
+    position: relative;
+} */
+
+.abutton {
+    text-align: center;
+    margin-bottom: 10px;
 }
 #cbutton {
-    position: relative;
-    left: 100px;
-    bottom: 50px;
     background-color: gray;
     border-color: rgba(100, 100, 100, 0.2);
     border-radius: 10px;
